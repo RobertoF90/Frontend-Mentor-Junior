@@ -1,0 +1,179 @@
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .mobile-disable {
+    display: none;
+  }
+
+  .header {
+    height: 53vh;
+    background-image: url(./images/image-hero-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 6rem 0 5rem;
+  }
+
+  .container {
+    width: 85%;
+    left: 8%;
+    top: -75px;
+  }
+
+  .overlay {
+    height: 280%;
+  }
+  .title--heading {
+    padding: 0 4rem;
+    text-align: center;
+  }
+
+  .title--sub-heading {
+    padding: 0 4rem;
+    padding-top: 2.5rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .container--counter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .counter--element {
+    padding: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .counter--element:nth-child(2) {
+    padding: 3rem 0;
+    border: none;
+    border-top: 1px solid hsl(0, 0%, 95%);
+    border-bottom: 1px solid hsl(0, 0%, 95%);
+  }
+
+  .container--pledge {
+    padding: 3rem 3rem 0 2rem;
+  }
+
+  .pledge--top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pledge--amount {
+    padding-top: 1.5rem;
+  }
+
+  .pledge--left {
+    padding: 0;
+  }
+
+  .pledge--description {
+    line-height: 1.6;
+    padding: 2.5rem 0;
+  }
+
+  .pledge--bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .pledge--days {
+    font-size: 4rem;
+  }
+
+  .pledge--btn,
+  .pledge--btn-out {
+    padding: 2rem 3rem;
+    background-color: hsl(176, 50%, 47%);
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  .active {
+    top: 30%;
+  }
+
+  .modal--para {
+    padding: 3rem 0 1rem 0;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: hsl(0, 0%, 43%);
+  }
+
+  .modal--pledge_top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .modal--pledge_heading {
+    margin-left: 2rem;
+  }
+
+  .modal--pledge_description {
+    padding: 4rem 0 1.5rem 0;
+    margin-left: -4.5rem;
+    color: hsl(0, 0%, 48%);
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+
+  .mobile-enable {
+    display: flex;
+  }
+
+  .modal--pledge_btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .modal--pledge_btns_des {
+    padding: 2rem 0;
+  }
+
+  .mobile-enable {
+    display: flex;
+  }
+
+  .mobile--nav-icon {
+    display: none;
+  }
+
+  .mobile--nav-icon:hover {
+    cursor: pointer;
+  }
+
+  .mobile--nav-menu {
+    margin-top: 4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 12px;
+  }
+
+  .mobile--nav--menu-links {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 3rem;
+    font-size: 1.8rem;
+  }
+
+  .nav--link:nth-child(2) {
+    padding: 3rem 0;
+    border-top: 1px solid hsl(0, 0%, 75%);
+    border-bottom: 1px solid hsl(0, 0%, 75%);
+  }
+
+  .hidden {
+    display: none;
+  }
+}
